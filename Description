@@ -90,6 +90,31 @@ Details of the project:
             right, else it make it false, (apear to the user the percante of his answer.)
 
 __________________________________________________________________________
-
+#Programming part#
     
+=> Project tools:
+    - Python
+    - SQL lite
+
+=> Project Modules:
+    - data-base module (It's a module to facilate the sql lite commends).
+    - Register/Sign. (For all registering ans signing data or functinality).
+    - Scope (For all scoping and tags data and functionalities).
+    - Question (For all Question data and functionalities).
+    - Test (For all tests data and functionalities).
+
+=> Check steps for architect Modules. 
+    - Descripe each of the module.
+    - Determine each of the module functionalities and proberites.
+    - Descripe the functions of each module.
+    - build a senarios for deferent setuation, and how the modules used each others.
+    - Build the modules in the datagrams, and determin the relation between them.
+
+=> Check steps for building the app.
+    (NOTE: Any update you relize in this step you should start it from the "Check steps for architect Modules" step.)
+    - look at the Description of each modules.
+    - built the functions and proberites of the module.
+    - use the senarios of deferent setuations in the step 4 of "Check steps for architect modules" to build the main app.
+
+
 
