@@ -113,7 +113,12 @@ __________________________________________________________________________
 => Check steps for building the app.
     (NOTE: Any update you relize in this step you should start it from the "Check steps for architect Modules" step.)
     - look at the Description of each modules.
-    - built the functions and proberites of the module.
+    - built the functions and proberites of the module: -> Check steps for building a function:
+                                                                - Analyse the description of the function and determine the functionality of the function.
+                                                                - Build the test cases of the function.
+                                                                - Code the function.
+                                                                - Make the test and debug. (NOTE: the tests should runing each time you add a new function or functionality of modufy it, and you don't need to test ready modules).
+    - Each module has own test file.
     - use the senarios of deferent setuations in the step 4 of "Check steps for architect modules" to build the main app.
 
 
