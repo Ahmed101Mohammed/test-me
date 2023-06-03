@@ -3,3 +3,51 @@
         - Give the ability of creating new accounts.
         - Give the ability to sing an acount.
         *- Give the ability to return the account if you forget it.
+    - Module Functions:
+        - register: This function ask user to input three parts of data:
+            1. user_name: This should be unique and without spaces or chars not included in this list: ["_"], the length of User name should be > 5 chars
+            2. password: This have the same rules of chars for user_name except that should be large than 7 chars and password isn't unique.
+            3. email: it should be valid and shour that this email is the own of the user.
+          this function check that every input is valid and save this data in the DB, the function print a message if the saving is done or if existing of an
+          error.
+        
+        - sign_in: This function ask user to input two parts of data:
+            1. user_name: check that the user name is valid, and exist.
+            2. password: check that the password is valid.
+          the function will search about the user_name in DB, and return the password of the user_name, it return a message if the user_name is not exist, else
+          the function will compare between the passward from DB, and the passward that user input.
+        
+        - is_valid_normal_input: This function check the input that has just numbers and chars and "_" only, the function return true, or false.
+        
+        - length_more_than: This function take two inputs:
+            - input which client want to chech that length of it is more the second input.
+            - is a number.
+          the function will return true if the first inpus is longer than the number in the second else false.
+            
+        - is_valid_user_name: check the user_name that input to the function, is valid and it's length more than 5 chars.
+
+        - is_valid_password: This function take a password and return true if it's valid normal input and has length more than 7 chars.
+    
+        - is_unique_user_name: take a user_name, DB, table_name, culomun_name  then search about the user_name in the DB in the table_name in the culomun_name.
+                               the function will return true if that we didn't find the use_name else false.
+        
+        - get_password: This function take a user_name and search about the user_name and return the password if the user_name is exist, else return false.
+
+        - is_valid_email: check that the input is a valid email by emails rules:
+            - each email should contain "@Something.something" .
+            - emails doesn't contain spaces.
+            - emails may contain in the end of it a series of ".somethinng.something.something.and_so_one"
+            - emails shouldn't end wiht ".com" word.
+            - explore for more rules for emails.
+    
+        - check_email: This function take and valid email and send a random number, and return a wrong message if the sending is field, else ask the client to
+            check his/her email and input the number. the funciton return true if the number input is the same of the sending number, else false.
+
+        - is_username_appropriate_for_register: Check that the user name is valid and unique.
+
+        - is_username_appropriate_for_sign: Check that the user name is valid and not unique.
+
+        - is_password_appropriate: Check that the password is valid and and equal the passord of user_name input.
+
+        - is_email_appropriate: Check that the email is valid and the number message that send is equal the user input.
+        
