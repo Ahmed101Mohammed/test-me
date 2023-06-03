@@ -5,8 +5,8 @@ What problem I try to solve?
     If I have ability to summurise my lessons in some questions, and for rev I just can solve some of my
     questions it can make me fell that I do good, and may make my study is more funny and good.
     I think also that I need in each time when I rev lesson to rev just top questions that I answer false in last
-    time, it can cover my weakness, and improve my in bad point.
-- When I read a book I want to remember it's ideas with out rewreed it every year (for example), so I find that
+    time, it can cover my weakness, and improve me in my bad point.
+- When I read a book I want to remember it's ideas with out reread it every year (for example), so I find that
     If i summuries my book to many questions cover the important aspects, it can help me to rev with answering
     some question instead of reading the whole book.
 - When I study knowladgable course, and it debend in many information rather than many applied of the information
@@ -99,6 +99,7 @@ __________________________________________________________________________
 => Project Modules:
     - data-base module (It's a module to facilate the sql lite commends).
     - Register/Sign. (For all registering ans signing data or functinality).
+    - Setting. (for changing passward functionality, and ather future settings properities)
     - Scope (For all scoping and tags data and functionalities).
     - Question (For all Question data and functionalities).
     - Test (For all tests data and functionalities).
