@@ -122,5 +122,33 @@ __________________________________________________________________________
     - Each module has own test file.
     - use the senarios of deferent setuations in the step 4 of "Check steps for architect modules" to build the main app.
 
+=> Data-base design: it contain 4 tables:
+    - users: this table will contain user data in 4 columons:
+        1. usser_id.
+        2. user_name.
+        3. password.
+        4. email.
 
+    - scopes: it contain 3 culomuns:
+        1. scope_id.
+        2. scope_name.
+        3. user_id.
 
+    - tags: it contain 3 culomuns:
+        1. tag id.
+        2. tag name.
+        3. scope_id.
+
+    - questions: it contain 5 culomuns:
+        1. question_id.
+        2. question_text.
+        3. right_answer_text.
+        4. scope_id.
+        5. tag_id.
+    
+    - answers: it contain 3 culomuns:
+        1. answer_id.
+        2. answer_text.
+        3. question_id.
+
+    
