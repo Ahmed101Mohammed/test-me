@@ -1,8 +1,8 @@
 => Register_Sign Module:
     - Module responsipilities:
         - Give the ability of creating new accounts.
-        - Give the ability to sing an acount.
-        - Give the ability to return the account password if you forget it.
+        - Give the ability to sign an acount.
+        - Give the ability to return the account if you forget it.
     - Module Functions:
         - register: This function ask user to input three parts of data:
             1. user_name: This should be unique and without spaces or chars not included in this list: ["_"], the length of User name should be > 5 chars
