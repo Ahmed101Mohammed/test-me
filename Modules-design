@@ -1,3 +1,10 @@
+=> data-base-needed-functionality Module:
+    - Module responsipilities:
+        - The only module have the ability to use data-base-easy-use module
+        - This module create the main db structure.
+        - This Module should contain main functionality of the app accourding the data-base structure.
+    - Module Functions:
+        -    
 => Register_Sign Module:
     - Module responsipilities:
         - Give the ability of creating new accounts.
