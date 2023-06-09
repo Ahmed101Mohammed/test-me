@@ -97,7 +97,8 @@ __________________________________________________________________________
     - SQL lite
 
 => Project Modules:
-    - data-base module (It's a module to facilate the sql lite commends).
+    - data-base-easy-use module (It's a module to facilate the sql lite commends).
+    - data-base-needed-functionality module (It's a module to prapere main functions that use the data-base-easy-use module and build the main structure of db).
     - Register/Sign. (For all registering ans signing data or functinality).
     - Setting. (for changing passward functionality, and ather future settings properities)
     - Scope (For all scoping and tags data and functionalities).
