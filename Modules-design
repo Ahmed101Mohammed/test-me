@@ -2,7 +2,7 @@
     - Module responsipilities:
         - Give the ability of creating new accounts.
         - Give the ability to sing an acount.
-        *- Give the ability to return the account if you forget it.
+        - Give the ability to return the account password if you forget it.
     - Module Functions:
         - register: This function ask user to input three parts of data:
             1. user_name: This should be unique and without spaces or chars not included in this list: ["_"], the length of User name should be > 5 chars
@@ -16,6 +16,11 @@
             2. password: check that the password is valid.
           the function will search about the user_name in DB, and return the password of the user_name, it return a message if the user_name is not exist, else
           the function will compare between the passward from DB, and the passward that user input.
+
+        - get_account_back: This function ask user to check it's email, and right the number that he get, if true, he/she can access his account else return 
+          error number and send a new number for him/her, if use do wrong three times, delete user account.
+
+        - delete_account: This function take a user_name then delete every thing relete to the user_name. 
         
         - is_valid_normal_input: This function check the input that has just numbers and chars and "_" only, the function return true, or false.
         
@@ -24,12 +29,11 @@
             - is a number.
           the function will return true if the first inpus is longer than the number in the second else false.
             
-        - is_valid_user_name: check the user_name that input to the function, is valid and it's length more than 5 chars.
+        - is_valid_user_name: check the user_name that input to the function, valid and it's length more than 5 chars.
 
         - is_valid_password: This function take a password and return true if it's valid normal input and has length more than 7 chars.
     
-        - is_unique_user_name: take a user_name, DB, table_name, culomun_name  then search about the user_name in the DB in the table_name in the culomun_name.
-                               the function will return true if that we didn't find the use_name else false.
+        - is_unique_user_name: take a user_name then return true if user name uniqu else false.
         
         - get_password: This function take a user_name and search about the user_name and return the password if the user_name is exist, else return false.
 
@@ -47,7 +51,7 @@
 
         - is_username_appropriate_for_sign: Check that the user name is valid and not unique.
 
-        - is_password_appropriate: Check that the password is valid and and equal the passord of user_name input.
+        - is_password_appropriate: Check that the password is valid and equal the passord of user_name input.
 
         - is_email_appropriate: Check that the email is valid and the number message that send is equal the user input.
         
