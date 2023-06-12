@@ -18,8 +18,8 @@ What new we will learn?
 
 Overview of the project:
 - The project is a test personal knowladge, that provide the ability of create questions under 
-    specific title or scope, then the user can ask the program to ask him several quistions, and give hime 
-    a grade in the end of exam.
+    specific title or scope, then the user can ask the program to ask him several quistions, and give him
+    a grade in the end of an exam.
 
 Details of the project:
 => Registering: give the ability to user to register (make a new account), and it will be sample, Just:
@@ -63,9 +63,9 @@ Details of the project:
 => Test:
     - Test settings: The user have the ability to test him self in defferant ways can determin with the test 
         settings.
-            1. scope of testing: in this setting the use should determain what is the scope or multi scope he
+            1. scope of testing: in this setting the use should determain what is the scope or multi scopes he
                 want to test him self in.
-            2. tags of testing or all: in this setting it by defulte "all", and it main that the use want to test
+            2. tags of testing or all: in this setting it by defulte "all", and it main that the user want to test
                 him self in the whole of the scopes he choese, and he can use tag or multi tags from the scope he
                 choose or multi scopes.
             3. Number of questions: the use can choose the number of questions in the exam.
