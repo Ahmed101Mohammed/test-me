@@ -64,4 +64,10 @@
         - is_password_appropriate: Check that the password is valid and equal the password of user_name input.
 
         - is_email_appropriate: Check that the email is valid and the number message that send is equal the user input.
------------------------------------------------------------------------------------------------------------------------------------------------------- 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+=> Settings Module:
+    - Module responsipilities:
+        - Give the ability to user to know or change main authantication data.
+        - For now user can't change any data ecsept password.
+    - Module Functions:
+        - update_password: This function take a new password and return true if password change else false.
