@@ -100,7 +100,7 @@ __________________________________________________________________________
     - data-base-easy-use module (It's a module to facilate the sql lite commends).
     - data-base-needed-functionality module (It's a module to prapere main functions that use the data-base-easy-use module and build the main structure of db).
     - Register/Sign. (For all registering ans signing data or functinality).
-    - Setting. (for changing passward functionality, and ather future settings properities)
+    - Settings. (for changing passward functionality, and ather future settings properities)
     - Scope (For all scoping and tags data and functionalities).
     - Question (For all Question data and functionalities).
     - Test (For all tests data and functionalities).
@@ -119,7 +119,8 @@ __________________________________________________________________________
                                                                 - Analyse the description of the function and determine the functionality of the function.
                                                                 - Build the test cases of the function.
                                                                 - Code the function.
-                                                                - Make the test and debug. (NOTE: the tests should runing each time you add a new function or functionality of modufy it, and you don't need to test ready modules).
+                                                                - Make the test and debug. (NOTE: the tests should runing each time you add a new function or   '
+                                                                    functionality of modufy it, and you don't need to test ready modules).
     - Each module has own test file.
     - use the senarios of deferent setuations in the step 4 of "Check steps for architect modules" to build the main app.
 
