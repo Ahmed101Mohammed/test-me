@@ -4,7 +4,11 @@
         - This module create the main db structure.
         - This Module should contain main functionality of the app accourding the data-base structure.
     - Module Functions:
-        -    
+        - Constructore: When the Main class of the module create, it should create automatically the main structure of the data base.
+        - get_user_password: This function take a user name and return user password, or false, if the user doesn't exist.
+        - delete_user_data: This function take a user name and delete every thing relate to him in the data-base.
+        - get_user_email: This function take a user name and return user's email, else return false.
+------------------------------------------------------------------------------------------------------------------------------------------------------
 => Register_Sign Module:
     - Module responsipilities:
         - Give the ability of creating new accounts.
@@ -41,10 +45,9 @@
         - is_valid_password: This function take a password and return true if it's valid normal input and has length more than 7 chars.
     
         - is_unique_user_name: take a user_name then return true if user name uniqu else false.
-        
-        - get_password: This function take a user_name and search about the user_name and return the password if the user_name is exist, else return false.
 
         - is_valid_email: check that the input is a valid email by emails rules:
+            - it must not be one email for two accounts.
             - each email should contain "@Something.something" .
             - emails doesn't contain spaces.
             - emails may contain in the end of it a series of ".somethinng.something.something.and_so_one"
@@ -58,7 +61,7 @@
 
         - is_username_appropriate_for_sign: Check that the user name is valid and not unique.
 
-        - is_password_appropriate: Check that the password is valid and equal the passord of user_name input.
+        - is_password_appropriate: Check that the password is valid and equal the password of user_name input.
 
         - is_email_appropriate: Check that the email is valid and the number message that send is equal the user input.
-        
+------------------------------------------------------------------------------------------------------------------------------------------------------ 
