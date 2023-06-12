@@ -1,0 +1,4 @@
+In "Settings" module:
+- Add a way to check from the user, by adding the past user name or check own email to get a number.
+- Change the description of "update_password" method, by adding the use of the first task in this file.
+- Note in this module the user can't access to own password, but give for the user the accessbilty to own user_name or email.
