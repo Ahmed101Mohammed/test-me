@@ -75,4 +75,25 @@
         - update_password: This function take a new password and check user email, by using "check_email" method from Register_Sign Module, if checked email return     
           true and then new password is valid  accept the changes and change the password in data-base then return true else false.
         - my_info: This function return the user name and user email, this like a data not a presentation in string.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+=> Scope Module:
+    - Module responsipilities:
+        - This medule is the main catogerised tool or way for the questions, to seperate deferent questions from each others.
+        - It give the ability to exploring the ancient questions added before.
+        - It give the ability to add, remove or edit any question.
+    - Module properities:
+        - name: it contain the name of the scope.
+        - quesiotns: it contain the questions that the user used.
+    - Module Functions:
+        - show_question: This function take Id or "*" or several Ids or date of several dates or compaining of all of this and return the quesions and save them in
+          the "questions"  
+        - show_quesiton_by_id: This function take Id or Id(s) and return list of quesitons.
+        - show_quesiton_by_date: This function take date or date(s) and return list of quesitons
+        - show_all_questions: This function return all of the quesitons.
+        - delete_question: This function take Id of an question and delete it.
+        - add_question: This function ask for data of question like: [question_text, question_taq, question_right_answer, *Question_others_not_right_answer if the 
+          question is't written question*], and save the question and return true if it done else false.
+        - edit_question: it take the Id of question and trate with the edit_queistion method from "Question" Module.
+        - remove_scope: it remove the hole scope.
+        - edit_scope_name: it edit the scope name. 
     
