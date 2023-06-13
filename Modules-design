@@ -1,4 +1,4 @@
-=> data-base-needed-functionality Module:
+=> data_base_needed_functionality Module:
     - Module responsipilities:
         - The only module have the ability to use data-base-easy-use module
         - This module create the main db structure.
@@ -70,4 +70,7 @@
         - Give the ability to user to know or change main authantication data.
         - For now user can't change any data ecsept password.
     - Module Functions:
-        - update_password: This function take a new password and return true if password change else false.
+        - update_password: This function take a new password and check user email, by using "check_email" method from Register_Sign Module, if checked email return     
+          true and then new password is valid  accept the changes and change the password in data-base then return true else false.
+        - my_info: This function return the user name and user email, this like a data not a presentation in string.
+    
