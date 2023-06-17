@@ -29,17 +29,16 @@
     1. user_name: This should be unique and without spaces or chars not included in this list: ["_"], the length of User name should be > 5 chars
     2. password: This have the same rules of chars for user_name except that should be large than 7 chars and password isn't unique.
     3. email: it should be valid and shour that this email is the own of the user.
-    this function check that every input is valid and save this data in the DB, the function print a message if the saving is done or if existing of an
-    error.
+    this function check that every input is valid and save this data in the DB, the function print a message if the saving is done or if existing of an error.
         
 - sign_in: This function ask user to input two parts of data:
     1. user_name: check that the user name is valid, and exist.
     2. password: check that the password is valid.
-    the function will search about the user_name in DB, and return the password of the user_name, it return a message if the user_name is not exist, else
-    the function will compare between the passward from DB, and the passward that user input.
+    the function will search about the user_name in DB, and return the password of the user_name, it return a message if the user_name is not exist, else the function 
+    will compare between the passward from DB, and the passward that user input.
 
-- get_account_back: This function ask user to check it's email, and right the number that he get, if true, he/she can access his account else return 
-    error number and send a new number for him/her, if use do wrong three times, delete user account.
+- get_account_back: This function ask user to check it's email, and right the number that he get, if true, he/she can access his account else return error number and 
+    send a new number for him/her, if use do wrong three times, delete user account.
 
 - delete_account: This function take a user_name then delete every thing relete to the user_name. 
         
@@ -64,8 +63,8 @@
     - emails shouldn't end wiht ".com" word.
     - explore for more rules for emails.
    
-- check_email: This function take and valid email and send a random number, and return a wrong message if the sending is field, else ask the client to
-    check his/her email and input the number. the funciton return true if the number input is the same of the sending number, else false.
+- check_email: This function take and valid email and send a random number, and return a wrong message if the sending is field, else ask the client to check his/her 
+    email and input the number. the funciton return true if the number input is the same of the sending number, else false.
 
 - is_username_appropriate_for_register: Check that the user name is valid and unique.
 
@@ -82,8 +81,8 @@
 - For now user can't change any data ecsept password.
 
 ### Module Functions:
-- update_password: This function take a new password and check user email, by using "check_email" method from Register_Sign Module, if checked email return     
-    true and then new password is valid  accept the changes and change the password in data-base then return true else false.
+- update_password: This function take a new password and check user email, by using "check_email" method from Register_Sign Module, if checked email return true and 
+    then new password is valid  accept the changes and change the password in data-base then return true else false.
 
 - my_info: This function return the user name and user email, this like a data not a presentation in string.
 ------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -99,8 +98,8 @@
 - quesiotns: it contain the questions that the user used.
 
 ### Module Functions:
-- show_question: This function take Id or "*" or several Ids or date of several dates or compaining of all of this and return the quesions and save them in
-    the "questions"  
+- show_question: This function take Id or "*" or several Ids or date of several dates or compaining of all of this and return the quesions and save them in the 
+    "questions"  
 
 - show_quesiton_by_id: This function take Id or Id(s) and return list of quesitons.
 
@@ -110,8 +109,8 @@
 
 - delete_question: This function take Id of an question and delete it.
 
-- add_question: This function ask for data of question like: [question_text, question_taq, question_right_answer, *Question_others_not_right_answer if the 
-    question is't written question*], and save the question and return true if it done else false.
+- add_question: This function ask for data of question like: [question_text, question_taq, question_right_answer, *Question_others_not_right_answer if the question     
+    is't written question*], and save the question and return true if it done else false.
 
 - edit_question: it take the Id of question and trate with the edit_queistion method from "Question" Module.
 
