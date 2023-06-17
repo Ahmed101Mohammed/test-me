@@ -73,7 +73,9 @@
 - is_password_appropriate: Check that the password is valid and equal the password of user_name input.
 
 - is_email_appropriate: Check that the email is valid and the number message that send is equal the user input.
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---
+
 ## Settings Module:
 
 ### Module responsipilities:
@@ -85,7 +87,9 @@
     then new password is valid  accept the changes and change the password in data-base then return true else false.
 
 - my_info: This function return the user name and user email, this like a data not a presentation in string.
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---
+
 ## Scope Module:
 
 ### Module responsipilities:
