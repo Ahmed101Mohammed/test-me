@@ -1,11 +1,11 @@
 # Modules Design
 
 ## data_base_needed_functionality Module:
-    ### Module responsipilities:
+### Module responsipilities:
         - The only module have the ability to use data-base-easy-use module
         - This module create the main db structure.
         - This Module should contain main functionality of the app accourding the data-base structure.
-    ### Module Functions:
+### Module Functions:
         - Constructore: When the Main class of the module create, it should create automatically the main structure of the data base.
         - get_user_password: This function take a user name and return user password, or false, if the user doesn't exist.
         - delete_user_data: This function take a user name and delete every thing relate to him in the data-base.
@@ -14,11 +14,11 @@
           Module, then replace the ancient password with the new, and return true if it's done else false.
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Register_Sign Module:
-    ### Module responsipilities:
+### Module responsipilities:
         - Give the ability of creating new accounts.
         - Give the ability to sign an acount.
         - Give the ability to return the account if you forget it.
-    ### Module Functions:
+### Module Functions:
         - register: This function ask user to input three parts of data:
             1. user_name: This should be unique and without spaces or chars not included in this list: ["_"], the length of User name should be > 5 chars
             2. password: This have the same rules of chars for user_name except that should be large than 7 chars and password isn't unique.
@@ -70,23 +70,23 @@
         - is_email_appropriate: Check that the email is valid and the number message that send is equal the user input.
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Settings Module:
-    ### Module responsipilities:
+### Module responsipilities:
         - Give the ability to user to know or change main authantication data.
         - For now user can't change any data ecsept password.
-    ### Module Functions:
+### Module Functions:
         - update_password: This function take a new password and check user email, by using "check_email" method from Register_Sign Module, if checked email return     
           true and then new password is valid  accept the changes and change the password in data-base then return true else false.
         - my_info: This function return the user name and user email, this like a data not a presentation in string.
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Scope Module:
-    ### Module responsipilities:
+### Module responsipilities:
         - This medule is the main catogerised tool or way for the questions, to seperate deferent questions from each others.
         - It give the ability to exploring the ancient questions added before.
         - It give the ability to add, remove or edit any question.
-    ### Module properities:
+### Module properities:
         - name: it contain the name of the scope.
         - quesiotns: it contain the questions that the user used.
-    ### Module Functions:
+### Module Functions:
         - show_question: This function take Id or "*" or several Ids or date of several dates or compaining of all of this and return the quesions and save them in
           the "questions"  
         - show_quesiton_by_id: This function take Id or Id(s) and return list of quesitons.
