@@ -1,6 +1,7 @@
-V: 1.0.0
-#Bussiness part#
-What problem I try to solve?
+# V: 1.0.0
+## Bussiness part
+
+### What problem I try to solve?
 - When I study I hate to rev my lessons with reading, I don't can check if I do good or not, so I find that 
     If I have ability to summurise my lessons in some questions, and for rev I just can solve some of my
     questions it can make me fell that I do good, and may make my study is more funny and good.
@@ -13,31 +14,31 @@ What problem I try to solve?
     I know that I will forget this lessons, and I will be lazy to review the course, so I find that will be great
     if I summuries the whole course in many questions, and I can test my self when I need to rev the course.
 
-What new we will learn?
+### What new we will learn?
 - Learning from software architict roadmap.
 
-Overview of the project:
+### Overview of the project:
 - The project is a test personal knowladge, that provide the ability of create questions under 
     specific title or scope, then the user can ask the program to ask him several quistions, and give him
     a grade in the end of an exam.
 
-Details of the project:
-=> Registering: give the ability to user to register (make a new account), and it will be sample, Just:
+### Details of the project:
+- Registering: give the ability to user to register (make a new account), and it will be sample, Just:
         - User name
         - User passward
         - User email (to send new passward for the user to access againg to his account, and he can change his passward)
 
-=> Sign in: give the user the ability to sign to his account, the information can he sign with is:
+- Sign in: give the user the ability to sign to his account, the information can he sign with is:
         - User name
         - passward
 
-=> The project servieces:
+- The project servieces:
     - Create new scope (The scope is the big title user put question under it): give the user tha ability to
       create new scope and questions to the scope.
     - Add questions for currunt scope: give the user the ability to create new questions under the general scope.
     - Test me: give the ability to user to choose the kind of test he want.
 
-=> Questions:
+- Questions:
     - Questions types: The user have the ability to test him self in defferent types of questions:
         1. one choice question (question with many choices and there is one good choice)
         2. Multi choices question (Question with many choices adn there are many write choice)
@@ -60,7 +61,7 @@ Details of the project:
         - FUN ready: it make a list of the wright answer, and other choices, and ordered them in random way
                         to apear it for the use, it only for choices questions.
         - FUN is_right: it make a compirison between user answer and the right answer.
-=> Test:
+- Test:
     - Test settings: The user have the ability to test him self in defferant ways can determin with the test 
         settings.
             1. scope of testing: in this setting the use should determain what is the scope or multi scopes he
@@ -90,13 +91,13 @@ Details of the project:
             right, else it make it false, (apear to the user the percante of his answer.)
 
 __________________________________________________________________________
-#Programming part#
+## Programming part
     
-=> Project tools:
+### Project tools:
     - Python
     - SQL lite
 
-=> Project Modules:
+### Project Modules:
     - data-base-easy-use module (It's a module to facilate the sql lite commends).
     - data-base-needed-functionality module (It's a module to prapere main functions that use the data-base-easy-use module and build the main structure of db).
     - Register/Sign. (For all registering ans signing data or functinality).
@@ -105,26 +106,26 @@ __________________________________________________________________________
     - Question (For all Question data and functionalities).
     - Test (For all tests data and functionalities).
 
-=> Check steps for architect Modules. 
+### Check steps for architect Modules. 
     - Descripe each of the module.
     - Determine each of the module functionalities and proberites.
     - Descripe the functions of each module.
     - build a senarios for deferent setuation, and how the modules used each others.
     - Build the modules in the datagrams, and determin the relation between them.
 
-=> Check steps for building the app.
+### Check steps for building the app.
     (NOTE: Any update you relize in this step you should start it from the "Check steps for architect Modules" step.)
     - look at the Description of each modules.
     - built the functions and proberites of the module: -> Check steps for building a function:
-                                                                - Analyse the description of the function and determine the functionality of the function.
-                                                                - Build the test cases of the function.
-                                                                - Code the function.
-                                                                - Make the test and debug. (NOTE: the tests should runing each time you add a new function or   '
-                                                                    functionality of modufy it, and you don't need to test ready modules).
+        - Analyse the description of the function and determine the functionality of the function.
+        - Build the test cases of the function.
+        - Code the function.
+        - Make the test and debug. (NOTE: the tests should runing each time you add a new function or functionality of modufy it, and you don't need to test ready 
+          modules).
     - Each module has own test file.
     - use the senarios of deferent setuations in the step 4 of "Check steps for architect modules" to build the main app.
 
-=> Data-base design: it contain 4 tables:
+### Data-base design: it contain 4 tables:
     - users: this table will contain user data in 4 columons:
         1. usser_id.
         2. user_name.
