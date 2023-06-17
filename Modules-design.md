@@ -103,7 +103,7 @@
 
 ### Module Functions:
 - show_question: This function take Id or "*" or several Ids or date of several dates or compaining of all of this and return the quesions and save them in the 
-    "questions"  
+    "questions"
 
 - show_quesiton_by_id: This function take Id or Id(s) and return list of quesitons.
 
@@ -121,4 +121,13 @@
 - remove_scope: it remove the hole scope.
 
 - edit_scope_name: it edit the scope name. 
-    
+
+---
+## Question Module:
+
+### Module responsipilities:
+
+### Module properities:
+
+### Module Functions:
+
