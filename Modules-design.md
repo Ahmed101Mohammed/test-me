@@ -2,16 +2,16 @@
 
 ## data_base_needed_functionality Module:
 ### Module responsipilities:
-        - The only module have the ability to use data-base-easy-use module
-        - This module create the main db structure.
-        - This Module should contain main functionality of the app accourding the data-base structure.
+- The only module have the ability to use data-base-easy-use module
+- This module create the main db structure.
+- This Module should contain main functionality of the app accourding the data-base structure.
 ### Module Functions:
-        - Constructore: When the Main class of the module create, it should create automatically the main structure of the data base.
-        - get_user_password: This function take a user name and return user password, or false, if the user doesn't exist.
-        - delete_user_data: This function take a user name and delete every thing relate to him in the data-base.
-        - get_user_email: This function take a user name and return user's email, else return false.
-        - update_user_password: This function take a user_name and new_password, it sure that the password is valid by "is_valid_password" method from Register_Sign 
-          Module, then replace the ancient password with the new, and return true if it's done else false.
+- Constructore: When the Main class of the module create, it should create automatically the main structure of the data base.
+- get_user_password: This function take a user name and return user password, or false, if the user doesn't exist.
+- delete_user_data: This function take a user name and delete every thing relate to him in the data-base.
+- get_user_email: This function take a user name and return user's email, else return false.
+- update_user_password: This function take a user_name and new_password, it sure that the password is valid by "is_valid_password" method from Register_Sign Module, 
+  then replace the ancient password with the new, and return true if it's done else false.
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Register_Sign Module:
 ### Module responsipilities:
