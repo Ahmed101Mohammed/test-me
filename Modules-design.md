@@ -147,7 +147,7 @@
 
 ### Module properities:
 - text: It contain the text of the question.
-- right_answer: It contain the tight answer text.
+- right_answer: It contain the tight answer text, it a text if the type of question is 'O' or 'W', and a list of the quesion type is 'M'.
 - type: it contain char of three : O => one-choice question, M => multi-choices question, W => writen question.
 - date: It contain the first history of the question, when it added.
 - tag: It shouldn't but it's better to added, and it make questions in one domain contained in one category under the domain.
