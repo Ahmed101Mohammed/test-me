@@ -19,6 +19,20 @@
 - update_user_password: This function take a user_name and new_password, it sure that the password is valid by "is_valid_password" method from Register_Sign Module, 
   then replace the ancient password with the new, and return true if it's done else false.
 
+- add_scope: it take a data of scope and create a new scope in db.
+
+- show_scopes: it return first 10 scopes if it doesn't get a number, if it get a number it return 10 scopes form the number taken.
+
+- get_question: This function take number of string, it take number, find the question who had the id that equal the number, if it take string find the question with 
+  date that equal the taken string, It may take a list with numbers or strings, or compination of both.
+
+- get_all_questions: it return first 10 of questions in db it there is no input, if it get number input return 10 of questions from the number added.
+
+- add_question: it take a data of question and save it in db.
+
+- remove_question: it remove a question by its id.
+
+- remove_scope: it take a scope id and remove it, and any question related to the scope.
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Register_Sign Module:
 ### Module responsipilities:
