@@ -1,3 +1,0 @@
-In "Question" module:
-- Add new method called: edit_question, it treat with several other edit_question_dateil like: edit_question_text, edit_question_taq, edit_question_right_answer,
-  edit_question_wrong_answers etc.
