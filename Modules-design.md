@@ -159,3 +159,27 @@
 - why: is a text explain why the write answer is right.
 
 ### Module Functions:
+- update: it ask the user to choose the properity he want to update, and it should be answer by of of these chars:
+    - **t**: it represent that the user want to change the text of the question.
+    - **ra**: it represent that the user want to change the right_answer properity.
+    - **tag**: it represent that the user want to change the tag of the question.
+    - **oc**: it represent that the user want to change the other choices if his question from one-choice question or multi-chioces question.
+    - **why**: it represent that the user want to change the explain of the right answer.
+
+- update_text: it take a text and replace it with question old text and save the update in the db.
+
+- update_right_naswer: it take a text of the right answer and replace it with the old one, and save the update in the db.
+
+- update_tag: it take a text and replace it with the tag, and if there no text it remove the tag and make its value NONE, and save the update with empty text in db.
+
+- update_other_choices: it take many choices and replace them with the old choices and save the update in the db.
+
+- update_why: it take text and replace it with the old explain of the quesion, and save the update in the db.
+
+- get_ready: it create a list of the right answer and other answers and orderd them with random way, it dependent on question type.
+
+- is_write: it compair betwen write answer and user input for the answer and detect if that the user answered write or no, and the compireson depend on question type
+    it return true of false.
+
+- increase_user_right_naswers: it increase the number of user right answers properity.
+
