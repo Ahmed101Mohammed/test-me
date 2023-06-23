@@ -156,6 +156,6 @@
 - other_choices: It's essencial for question that had type one-choice question and multi-choices question, and it contain list of other answers.
 - priority_of_appearance: it's contain a number that explain the periority of the question to appear to the user, and it calculate by this: (user_right_naswers * 
     appearance)
+- why: is a text explain why the write answer is right.
 
 ### Module Functions:
-
