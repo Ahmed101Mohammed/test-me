@@ -18,6 +18,7 @@
 
 - update_user_password: This function take a user_name and new_password, it sure that the password is valid by "is_valid_password" method from Register_Sign Module, 
   then replace the ancient password with the new, and return true if it's done else false.
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Register_Sign Module:
 ### Module responsipilities:
@@ -126,8 +127,21 @@
 ## Question Module:
 
 ### Module responsipilities:
+- This module can edit many of question proberities.
+- This module rate many details of how user treate with the question.
+- This module change the answers order, and rate the user answer.
 
 ### Module properities:
+- text: It contain the text of the question.
+- right_answer: It contain the tight answer text.
+- type: it contain char of three : O => one-choice question, M => multi-choices question, W => writen question.
+- date: It contain the first history of the question, when it added.
+- tag: It shouldn't but it's better to added, and it make questions in one domain contained in one category under the domain.
+- appearance: It contain a number of the times question appear for the user to answer.
+- user_right_answers: It contain the number of the question answered right from the user.
+- other_choices: It's essencial for question that had type one-choice question and multi-choices question, and it contain list of other answers.
+- priority_of_appearance: it's contain a number that explain the periority of the question to appear to the user, and it calculate by this: (user_right_naswers * 
+    appearance)
 
 ### Module Functions:
 
