@@ -131,7 +131,7 @@
 - add_question: This function ask for data of question like: [question_text, question_taq, question_right_answer, *Question_others_not_right_answer if the question     
     is't written question*], and save the question and return true if it done else false.
 
-- edit_question: it take the Id of question and trate with the edit_queistion method from "Question" Module.
+- edit_question: it take the Id of question and treate with the edit_queistion method from "Question" Module.
 
 - remove_scope: it remove the hole scope.
 
