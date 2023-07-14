@@ -187,7 +187,32 @@
 ## Test Module:
 
 ### Module responsipilities:
+- Prepare an exam for a user, by the setting that the user choose.
+- Give the appility to the user to redo the test.
+- Check the user answers and update the questions properities.
 
 ### Module properities:
-
+- test_data: it's None by defulte, and it change to opject has this structure: {scope_name: can be str of list of str, tag_name: can be str or list of str, 
+   number_of_questions: number or true(it mean all questions), time: can be number or false(it mean that no specific time for each question to answer.) }
+- questions: it's None by defulte, and it change to a list of questions.
+- time: it's None by defulte, and it change to a number.
+- grade: (work in)
 ### Module Functions:
+- get_test: This function will use "test_data" properity to get questions,and record them in "questions" properity, and recored the time in "time" properity if the 
+  user determin time for each question.
+
+- get_test_data: This function ask the user for many questions to determin the scope of questions and number and the time provide to answer each question, by this 
+  questions:
+    - What are the scopes of your test: (if one scope write like that: name_of_scope ,if multi write like that: scop1, scop2, scope3 ,if all scopes write: *) 
+    - What are the tags of your test: (if you choose one scope you can write that: name_of_tag, if you want all of tags of all scopes you choose write: *, if you want
+      specific tags of specific scopes you choose, write: scope_name:tag_name, scope_name: tag_name,...).
+    - What is the number of questions you want, in your test: (if you want all quesions wtite: *)
+    - Are you want determin a time for each question: (Y/N)
+    - [This qestion appear if the previous question answer is: Y] How much time you want for each question: (minuts)
+  The functio will return opeject of the data of the quesion and save that in "test_data" propirity.
+
+- get_questions: This function use "test_data" properity to get questions by using "get_scope_questions" method from data_base_needed_functionality Module. the   
+  function will devied the number of question on all scopes if there is no tags, and devied the number in tages number if it exist. and not devide if the 
+  "number_of_questions" has the value: true.
+
+- run: (work in)
