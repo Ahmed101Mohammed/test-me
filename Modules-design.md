@@ -33,6 +33,9 @@
 - remove_question: it remove a question by its id.
 
 - remove_scope: it take a scope id and remove it, and any question related to the scope.
+
+- get_scope_questions: it take a scope_name, and number of quesions(it can take true value, and it mean all questions), and name of tag. the name of tag is optional. 
+  if tag is exist the questions will come from it, else the question will come from the whole scope.
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Register_Sign Module:
 ### Module responsipilities:
