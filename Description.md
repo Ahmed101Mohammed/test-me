@@ -63,16 +63,14 @@
     5. number of minuts: if the user choose true for the timer, then field of minuts appear, and give him the ability to choose number of minuts for each exam, it 
        chould accept float numbers  like: (0.1).
 
- - Test Machanism: The test have questions that divid in two parts:
-   First: half of questions from the lowest perfictionism questions.
-   Seconed: half of questions from the lowest appearance questions.
+ - Test Mechanism: The test has questions ordered by "priority_of_appearance", and this is one of a question object property
    More details: 
    - The questions are generated randomly for the user, and in the end of the test the user can have a grade of the test, and he can retest the same test, unlimited 
      times.
    - The test appear in a new window, with one question appear in the time, and with next buttom you can access to the next question, and you can get back. the next 
      question can generate auto when the time is out.
-   - When the user choose the right answer a grean color will be in his answer, with slide apear to tell him why this is right, and when the user answer rong answer, 
-     red flag in his answer and grean in the wright answer, with a same slide of explanation for the right answer.
+   - When the user choose the right answer , message will appear to tell him that, with the explain for the writness of question, and when the user has a wrong answer, 
+     message will appear to tell him that his/her aswer is wrong, with determin the write one, and explain for the write answer.
    - If the question is writen question and the answer is more than 70% right answer it make the naswer right, else it make it false, (apear to the user the percante 
      of his answer.)
 
